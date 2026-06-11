@@ -1,6 +1,6 @@
-# RosettaDrone
+# RosettaDrone v5
 
-This is the official and actively maintained RosettaDrone project.
+This is the RosettaDrone project ported to DJI SDK v5.
 
 RosettaDrone is a framework for developing and testing software for DJI drones.
 It provides a MAVLink wrapper which allows users to control DJI drones using MAVLink-speaking ground control stations and offers tools and features for implementing and testing AI scripts.
@@ -23,17 +23,6 @@ This can be an interesting alternative for improving the features offered by the
 
 ## Supported Drones
 
-Rosetta has been tested on:
-* DJI Mini
-* DJI Mini SE
-* DJI Mini 2
-* DJI Air
-* DJI Air 2S
-* Mavic 2
-* Mavic Pro
-* Mavic AIR series
-* Matrice 210 V2
-
 Rosetta is compatible with:
 * QGroundControl
 * Mission Planer
@@ -41,11 +30,10 @@ Rosetta is compatible with:
 * Dronekit-Python (AI scripting)
 * MavProxy
 * MAVSDK
-* DJI SDK 4.16.1
+* DJI SDK 5.18.0
 
 ## Contributing to RosettaDrone
 
-* If you want to contribute please follow these [important recomendations](https://docs.google.com/document/d/1wR56Mvd2OsT82kxMOD7f_3-c6yJGBtLaT8LuVrmC5wI/edit?usp=sharing).
 * Here is some [documentation](https://github.com/lilfish/Delta-FlowerPower/wiki/Drone-app) from a forked project.
 * Rosetta can be tested without a real Drone using the "Test Mode" (for MAVLink and GUI testing).
 
